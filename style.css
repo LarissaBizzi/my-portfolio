@@ -616,7 +616,6 @@ body.light .header {
 .work-img {
   max-inline-size: 785px;
   transition: 0.6s all;
-  cursor:zoom-in;
 }
 
 body.light .work-img {
