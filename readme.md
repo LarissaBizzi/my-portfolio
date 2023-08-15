@@ -1,15 +1,13 @@
 Larissa Bizzi's Portfolio
 Welcome to my portfolio website! I am a front-end web developer passionate about creating user-friendly and visually appealing web experiences. Feel free to explore my projects and get in touch for any inquiries or collaborations.
 
----
-Table of Contents
-Introduction
-Projects
-Skills
-Contact
-Social Media
-Dark Theme
----
+::Table of Contents
+- Introduction
+- Projects
+- Skills
+- Contact
+- Social Media
+- Dark Theme
 
 
 ::Projects
