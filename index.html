@@ -8,39 +8,23 @@
   <meta name="robots" content="index, follow" />
   <meta name="description"
     content="Welcome to my portfolio website. I am a front-end web developer. Feel free to explore my projects and contact me for any inquiries or collaborations." />
-
-  <!-- Google / Search Engine Tags -->
   <meta itemprop="name" content="Larissa Bizzi's Portfolio">
   <meta itemprop="description"
     content="Welcome to my portfolio website. I am a front-end web developer. Feel free to explore my projects and contact me for any inquiries or collaborations.">
-
-  <!-- Reference screenshot of updated site's header in place of content -->
   <meta itemprop="image" content="assets/images/sharing-card.jpg">
-
-  <!-- Facebook Meta Tags -->
   <meta property="og:url" content="">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Larissa Bizzi's Portfolio">
   <meta property="og:description"
     content="Welcome to my portfolio website. I am a front-end web developer. Feel free to explore my projects and contact me for any inquiries or collaborations.">
-
-  <!-- Reference screenshot of updated site's header in content -->
   <meta property="og:image" content="assets/images/sharing-card.jpg">
-
-  <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Larissa Bizzi's Portfolio">
   <meta name="twitter:description"
     content="Welcome to my portfolio website. I am a front-end web developer. Feel free to explore my projects and contact me for any inquiries or collaborations.">
-
-  <!-- Reference screenshot of updated site's header in content -->
   <meta name="twitter:image" content="assets/images/sharing-card.jpg">
 
-
-  <!-- Update favicon href attribute with image of yourself -->
   <link rel="shortcut icon" href="assets/images/larissaicon.JPG" type="image/jpg" />
-
-  <!-- Preloading fonts for better performance -->
 
   <link rel="preload" href="assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin />
 
@@ -56,15 +40,12 @@
     const theme = localStorage.getItem("theme") || "dark";
     document.body.classList.add(theme);
   </script>
-
   <header class="header">
-
     <div class="menu-btn-container">
       <div class="container">
         <button class="menu-btn">menu</button>
       </div>
     </div>
-
     <nav class="nav hidden">
       <ol class="nav-items">
         <li class="nav-item"><a href="#">Home</a></li>
@@ -75,15 +56,12 @@
         </li>
       </ol>
     </nav>
-
     <div class="container">
       <div class="header-textbox">
         <h1 class="h1">
           Hi, I'm Larissa Bizzi<br />
           A Front-End Developer
         </h1>
-
-        <!-- Add a small introductory paragraph about yourself -->
         <p class="header-text">
           Here you can find more about my projects and my learning journey.
         </p>
@@ -103,9 +81,7 @@
         <div class="work-boxes">
           <div class="work-box">
             <div class="work-textbox">
-              <!-- Add your project title here -->
               <h3 class="h3">Little Lemon restaurant website</h3>
-              <!-- Add small description of your project  -->
               <p class="work-text">
                 A website built using React, focusing on the online reservation need.
                 This was the final assignement from my Front-End Development certification.
@@ -167,6 +143,7 @@
               <img loading="lazy" src="assets/images/work/weather-app.jpg" alt="Weather Forecast website" />
             </picture>
           </div>
+
           <div class="work-box">
             <div class="work-textbox">
               <!-- Add your project title here -->
@@ -196,6 +173,40 @@
               <img loading="lazy" src="assets/images/work/todo-app.jpg" alt="Todo App" />
             </picture>
           </div>
+
+          <div class="work-box">
+            <div class="work-textbox">
+              <h3 class="h3">Sign-up form for a newsletter</h3>
+              <p class="work-text">
+                As a Front End Mentor challenge, I built a newsletter sign-up form, using HTML, CSS and JavaScript.
+              </p>
+              <!-- Add technologies you used to build the project -->
+              <ol class="work-technologies">
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ol>
+
+              <div class="work-links">
+                <!-- Add url of project in href attribute -->
+                <a href="https://github.com/LarissaBizzi/newsletter-signupform" target="_blank" rel="noopener"
+                  class="link">Explore this project</a>
+
+                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                <a href="https://github.com/LarissaBizzi/newsletter-signupform" target="_blank" rel="noopener"
+                  title="Source code">
+                  <img src="assets/images/social-links/github.svg" alt="GitHub" loading="lazy" />
+                </a>
+              </div>
+            </div>
+
+            <!-- Update img src and alt attribute  -->
+
+            <picture class="work-img">
+              <img loading="lazy" src="assets/images/work/signup-form.JPG" alt="newsletter sign-up form" />
+            </picture>
+          </div>
+
           <div class="work-box">
             <div class="work-textbox">
               <!-- Add your project title here -->
